@@ -1,5 +1,11 @@
+'''
+https://github.com/spiolynn/OCR-DETECTION-CTPN
+STEP1 :
+图片预处理:
+如果不是大小为800x600，则预先标准化的图像将首先被重新缩放，
+然后将从重新缩放的图像中裁剪800x600的图像。 800x600图像将存储在新制作的目录./images_base中。
+'''
 # -*- coding: utf-8 -*-
-
 
 import os
 from PIL import Image
