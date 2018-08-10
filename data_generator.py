@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
 
+'''
+STEP2.3
+通过2和3，将生成验证数据和训练数据。 它们将分别存储在新制目录./data_valid和./data_train中。
+python data_generator.py 0
+python data_generator.py 1
+'''
 
 import os
 import random
@@ -14,7 +20,7 @@ import sys
 #
 # change this value to change the default purpose of data-generating
 #
-data_for_training = 0                # 1 for training, 0 for test  
+data_for_training = 1               # 1 for training, 0 for test
 # 
 
 

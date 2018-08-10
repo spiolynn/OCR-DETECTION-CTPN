@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 @author: limingfan
-
+模型元数据
 """
 
 
